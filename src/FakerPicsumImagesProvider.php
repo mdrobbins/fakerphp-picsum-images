@@ -24,11 +24,15 @@ class FakerPicsumImagesProvider extends BaseProvider
         bool $randomize = true,
         bool $gray = false,
         int $blur = null,
+        string $seed = '',
         string $imageExtension = null
     ): string {
         $url = '';
         if ($id) {
             $url = 'id/' . $id . '/';
+        }
+        if ($seed) {
+            $url .= 'seed/' . $seed . '/';
         }
         $url .= "{$width}/{$height}";
         $queryString = self::buildQueryString($gray, $blur, $randomize);
