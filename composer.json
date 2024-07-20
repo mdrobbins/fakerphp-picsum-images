@@ -1,18 +1,24 @@
 {
-    "name": "smknstd/fakerphp-picsum-images",
-    "description": "Alternative image provider for fakerphp using picsum.photos ",
+    "name": "mdrobbins/fakerphp-picsum-images",
+    "description": "Alternative image provider for fakerphp using picsum.photos with support for seeds ",
     "keywords": [
         "faker",
         "php",
         "images",
-        "picsum"
+        "picsum",
+        "seed"
     ],
-    "homepage": "https://github.com/smknstd/fakerphp-picsum-images",
+    "homepage": "https://github.com/mdrobbins/fakerphp-picsum-images",
     "license": "MIT",
     "authors": [
         {
             "name": "Arnaud Becher",
             "email": "arnaud.becher@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Michael Robbins",
+            "email": "mdrobbins@mdrnetworks.com",
             "role": "Developer"
         }
     ],
